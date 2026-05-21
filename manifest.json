@@ -1,0 +1,56 @@
+{
+  "manifest_version": 3,
+  "name": "realtheo",
+  "version": "1.0.0",
+  "permissions": ["declarativeNetRequest"],
+  "host_permissions": [
+    "*://x.com/*",
+    "*://twitter.com/*",
+    "*://github.com/*",
+    "*://www.youtube.com/*",
+    "*://youtube.com/*",
+    "*://m.youtube.com/*",
+    "*://pbs.twimg.com/*",
+    "*://avatars.githubusercontent.com/*",
+    "*://yt3.ggpht.com/*",
+    "*://yt3.googleusercontent.com/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "realtheo_avatar_redirects",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://x.com/*",
+        "*://twitter.com/*",
+        "*://www.youtube.com/*",
+        "*://youtube.com/*",
+        "*://m.youtube.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "assets/x.com.jpg",
+        "assets/youtube.com.jpg"
+      ],
+      "matches": [
+        "*://x.com/*",
+        "*://twitter.com/*",
+        "*://github.com/*",
+        "*://www.youtube.com/*",
+        "*://youtube.com/*",
+        "*://m.youtube.com/*"
+      ]
+    }
+  ]
+}

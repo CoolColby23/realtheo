@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/assets/x.com.jpg"
+      }
+    },
+    "condition": {
+      "regexFilter": "^https://pbs\\.twimg\\.com/profile_images/1909353910130950147/.*",
+      "resourceTypes": ["image"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/assets/x.com.jpg"
+      }
+    },
+    "condition": {
+      "regexFilter": "^https://pbs\\.twimg\\.com/profile_images/1840190186245746688/.*",
+      "resourceTypes": ["image"]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/assets/x.com.jpg"
+      }
+    },
+    "condition": {
+      "regexFilter": "^https://avatars\\.githubusercontent\\.com/u/6751787(\\?.*)?$",
+      "resourceTypes": ["image"]
+    }
+  },
+  {
+    "id": 4,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/assets/youtube.com.jpg"
+      }
+    },
+    "condition": {
+      "regexFilter": "^https://yt3\\.(ggpht|googleusercontent)\\.com/Y6jut5A-dhWRlv7W81kGxVFPtZGjZN97IhBP75uLnx2AVV7ZEJUUUxBKHlFw9GcwILxkz1E_cLc.*",
+      "resourceTypes": ["image"]
+    }
+  }
+]
