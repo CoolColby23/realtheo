@@ -25,6 +25,15 @@ Load it unpacked:
 - Patches dynamic X and YouTube pages from a small content script.
 - Keeps the replacement images local in `assets/`.
 
+## Screenshots
+
+<p>
+  <img src="./screenshots/github.png" alt="realtheo on GitHub" width="320">
+  <img src="./screenshots/x.png" alt="realtheo on X" width="260">
+</p>
+
+<img src="./screenshots/youtube.png" alt="realtheo on YouTube" width="640">
+
 ## Development
 
 After editing files, reload `realtheo` from the browser extensions page.
