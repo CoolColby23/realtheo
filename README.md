@@ -2,6 +2,12 @@
 
 _A tiny unpacked browser extension._
 
+<p align="center">
+  <img src="./screenshots/github.png" alt="realtheo on GitHub" width="30%">
+  <img src="./screenshots/x.png" alt="realtheo on X" width="30%">
+  <img src="./screenshots/youtube.png" alt="realtheo on YouTube" width="30%">
+</p>
+
 ## Install
 
 Clone the repo:
@@ -24,15 +30,6 @@ Load it unpacked:
 - Redirects known static avatar URLs with declarative net request rules.
 - Patches dynamic X and YouTube pages from a small content script.
 - Keeps the replacement images local in `assets/`.
-
-## Screenshots
-
-<p>
-  <img src="./screenshots/github.png" alt="realtheo on GitHub" width="320">
-  <img src="./screenshots/x.png" alt="realtheo on X" width="260">
-</p>
-
-<img src="./screenshots/youtube.png" alt="realtheo on YouTube" width="640">
 
 ## Development
 
